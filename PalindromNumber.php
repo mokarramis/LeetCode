@@ -6,7 +6,8 @@
  from the first half with those from the reversed second half. 
  However, I found that one simplest approach is to avoid converting the number 
  to a string and instead directly compare the first half of the integer 
- with the reversed second half.
+ with the reversed second half. another most simplest way is just using strrev() method and 
+ compare to x.
 */
 class PalindromNumber
 {
